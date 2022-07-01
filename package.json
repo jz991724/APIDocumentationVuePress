@@ -1,0 +1,16 @@
+{
+  "name": "apidocumentationvuepress",
+  "version": "1.0.0",
+  "description": "文档API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "ZHANGJUN",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.48"
+  }
+}
