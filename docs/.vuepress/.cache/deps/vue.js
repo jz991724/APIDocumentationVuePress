@@ -1,4 +1,7 @@
 import {
+  compile
+} from "./chunk-C2MTRFJC.js";
+import {
   BaseTransition,
   Comment,
   EffectScope,
@@ -16,7 +19,6 @@ import {
   callWithErrorHandling,
   cloneVNode,
   compatUtils,
-  compile,
   computed,
   createApp,
   createBaseVNode,
@@ -137,7 +139,7 @@ import {
   withMemo,
   withModifiers,
   withScopeId
-} from "./chunk-ZT2TARZU.js";
+} from "./chunk-HLBI5QJW.js";
 import {
   camelize,
   capitalize,

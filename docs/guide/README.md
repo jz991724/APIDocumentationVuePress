@@ -2,6 +2,8 @@
 lang: zh-CN 
 title: markdown例子演示
 description: 页面的描述
+categories:
+- 《JavaScript教程》笔记
 ---
 
 ## table
@@ -127,3 +129,7 @@ npm install
 
   </CodeGroupItem>
 </CodeGroup>
+
+## 图片
+
+![](@images/logo.png)
