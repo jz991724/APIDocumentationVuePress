@@ -4,7 +4,6 @@ import {
   effectScope,
   getCurrentInstance,
   getCurrentScope,
-  initCustomFormatter,
   inject,
   isReactive,
   isRef,
@@ -27,21 +26,28 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-HLBI5QJW.js";
-import "./chunk-VNKCJBW6.js";
-import "./chunk-FEFTYQ2P.js";
+} from "./chunk-JJVW3LVN.js";
+import "./chunk-RXU553PQ.js";
+import {
+  init_define_EXTERNAL_LINK_ICON_LOCALES,
+  init_define_MZ_ZOOM_OPTIONS
+} from "./chunk-UKF2MNSR.js";
 
-// node_modules/@vuepress/theme-default/node_modules/vue/dist/vue.runtime.esm-bundler.js
-function initDev() {
-  {
-    initCustomFormatter();
-  }
-}
-if (true) {
-  initDev();
-}
+// dep:@vueuse_core
+init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_MZ_ZOOM_OPTIONS();
+
+// node_modules/@vuepress/theme-default/node_modules/@vueuse/core/index.mjs
+init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_MZ_ZOOM_OPTIONS();
+
+// node_modules/@vuepress/theme-default/node_modules/@vueuse/core/node_modules/@vueuse/shared/index.mjs
+init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_MZ_ZOOM_OPTIONS();
 
 // node_modules/@vuepress/theme-default/node_modules/@vueuse/core/node_modules/vue-demi/lib/index.mjs
+init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_MZ_ZOOM_OPTIONS();
 var isVue2 = false;
 var isVue3 = true;
 function set(target, key, val) {

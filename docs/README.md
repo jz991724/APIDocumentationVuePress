@@ -5,7 +5,7 @@ heroText: geofly工具函数API
 tagline: 自定义工具函数
 actions:
 - text: 快速上手
-  link: /zh/guide/getting-started.html
+  link: /guide/
   type: primary
 - text: 项目简介
   link: /guide/

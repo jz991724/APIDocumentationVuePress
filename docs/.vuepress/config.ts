@@ -13,7 +13,6 @@ export default defineUserConfig({
     markdown: {
         // anchor: false,//去除锚点链接跳转
     },
-    rightMenuBar: true,
     theme: defaultTheme({
         // 添加导航栏
         navbar: [
@@ -21,21 +20,21 @@ export default defineUserConfig({
             {text: '指南', link: '/guide/'},
             {text: '生活', link: '/life/'},
         ],
-        // // 为以下路由添加左侧边栏
-        // sidebar: {
-        //     '/reference/': [
-        //         {
-        //             text: 'VuePress Reference',
-        //             collapsible: true,
-        //             children: ['/reference/cli.md', '/reference/config.md'],
-        //         },
-        //         {
-        //             text: 'Bundlers Reference',
-        //             collapsible: true,
-        //             children: ['/reference/bundler/vite.md', '/reference/bundler/webpack.md'],
-        //         },
-        //     ],
-        // },
-        // sidebarDepth: 2,//左侧导航显示的层级
+        // 侧边栏对象
+        // 不同子路径下的页面会使用不同的侧边栏
+        sidebar: {
+            '/guide/': [
+                {
+                    text: '指南',
+                    children: ['/guide/README.md', '/guide/getting-started.md'],
+                },
+            ],
+            '/reference/': [
+                {
+                    text: 'Reference',
+                    children: ['/reference/cli.md', '/reference/config.md'],
+                },
+            ],
+        },
     }),
 })

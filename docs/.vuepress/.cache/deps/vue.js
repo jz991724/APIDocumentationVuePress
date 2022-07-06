@@ -1,7 +1,4 @@
 import {
-  compile
-} from "./chunk-C2MTRFJC.js";
-import {
   BaseTransition,
   Comment,
   EffectScope,
@@ -19,6 +16,7 @@ import {
   callWithErrorHandling,
   cloneVNode,
   compatUtils,
+  compile,
   computed,
   createApp,
   createBaseVNode,
@@ -139,7 +137,7 @@ import {
   withMemo,
   withModifiers,
   withScopeId
-} from "./chunk-HLBI5QJW.js";
+} from "./chunk-JJVW3LVN.js";
 import {
   camelize,
   capitalize,
@@ -148,8 +146,15 @@ import {
   normalizeStyle,
   toDisplayString,
   toHandlerKey
-} from "./chunk-VNKCJBW6.js";
-import "./chunk-FEFTYQ2P.js";
+} from "./chunk-RXU553PQ.js";
+import {
+  init_define_EXTERNAL_LINK_ICON_LOCALES,
+  init_define_MZ_ZOOM_OPTIONS
+} from "./chunk-UKF2MNSR.js";
+
+// dep:vue
+init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_MZ_ZOOM_OPTIONS();
 export {
   BaseTransition,
   Comment,
